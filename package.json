@@ -5,4 +5,4 @@
   // অথবা
   // "deploy": "gh-pages -d build"     // যদি create-react-app ব্যবহার করো
 }
-npm run deploy
+
