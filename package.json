@@ -1,1 +1,7 @@
 "homepage": "https://yourusername.github.io/tallykhata-app"
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",        // যদি vite ব্যবহার করো
+  // অথবা
+  // "deploy": "gh-pages -d build"     // যদি create-react-app ব্যবহার করো
+}
